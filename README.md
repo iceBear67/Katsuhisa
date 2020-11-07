@@ -13,6 +13,8 @@ Katsuhisa是一套从小白入门到高手的完整开服教学资源，覆盖�
 
 [点击此处开始](./articles/Getting_Started.md)
 
+本文在 [Lxnet](https://blog.lxns.org) 同步更新，若有偏差，以 Github 上为准。
+
 QQ 群组: 443098623
 
 **CC BY-NC**
