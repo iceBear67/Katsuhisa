@@ -109,7 +109,7 @@ eula=false
 
 # END
 
-本章结束。下一章我们将会讲解`配置文件`，`服务器核心那些事`。
+本章结束。[下一章](../2/After_First_Start.md)
 
 若您感到有帮助，欢迎[赞助](https://afdian.net/@omgib67)或者点个Star！
 
