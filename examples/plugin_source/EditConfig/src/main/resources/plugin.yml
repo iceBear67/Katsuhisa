@@ -1,0 +1,7 @@
+name: EditConfig
+version: @version@
+main: io.ib67.katsuhisa.example.editconfig.EditConfig
+api-version: 1.15
+authors: [ iceBear67 ]
+description: An example for edit config.
+website: https://github.com/iceBear67/Katsuhisa

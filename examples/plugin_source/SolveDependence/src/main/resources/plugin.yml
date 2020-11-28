@@ -1,0 +1,5 @@
+name: SolveDependencies
+version: @version@
+main: io.ib67.katsuhisa.examples.SolveDependencies
+api-version: 1.13
+depend: [ lol ]
