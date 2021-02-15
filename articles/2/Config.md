@@ -235,7 +235,7 @@ A:
 ```json
 {
     "xx":{
-        "xxxxxx"： 123,
+        "xxxxxx": 123,
         "xxx": true,
         "xxxx": "xxxx"
     }
