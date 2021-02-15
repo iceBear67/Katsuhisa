@@ -11,5 +11,5 @@
 5. **玩过Minecraft** 并时刻准备一个 Minecraft 1.13.2 客户端(不需要开着也行)
 6. 我们假设您使用Windows作为学习开服的环境。
 
-[开始](./1/A_New_Server.md)  
-[开始之后](./2/After_First_Start.md)
+- [开始](./1/A_New_Server.md)  
+- [开始之后](./2/After_First_Start.md)

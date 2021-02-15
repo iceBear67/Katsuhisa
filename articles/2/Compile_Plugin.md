@@ -14,7 +14,7 @@
 
    若你看到了".classpath"文件，则代表这是一个Eclipse项目
 
-   若你上述所有情况都不符合，两种可能：
+   若上述所有情况都不符合，两种可能：
 
    - 插件不使用任何构建工具
    - 插件使用的构建工具未列出
@@ -23,7 +23,7 @@
 
    编译一个插件需要准备好**JDK**，若您用的是第一篇开服教程提供的Java则不需要担心。
 
-   接着打开cmd/Powershell。
+   接着在代码的目录打开`cmd/Powershell/命令提示符`。 (对着文件浏览器Shift+右键可以看到选项, Powershell用户可能需要设置安全策略。)  
 
    对于 Gradle 构建的插件：输入`./gradlew tasks`，若有`shadowjar`字眼出现请使用`./gradlew shadowjar`，若无请使用`./gradlew build`，插件成品在生成的`build/libs`文件夹内
 
@@ -33,4 +33,4 @@
 
    对于Eclipse项目，请安装Eclipse/Intellij IDEA导入项目并且编译 (教程部分 TODO )
 
-*能找开发者编译就找开发者编译，他们知道怎么做*
+*能找开发者编译就找开发者编译，他们知道怎么做，但你要注意人品....*

@@ -38,7 +38,8 @@
 
 ## 安装插件
 
-下载[示例插件](../../examples/After_First_Start/1/ExamplePlugin.jar)到您服务端的`plugins`中，启动服务器，观察日志变化。
+下载[示例插件](../../examples/After_First_Start/1/ExamplePlugin.jar)到您服务端的`plugins`中，启动服务器，观察日志变化。  
+[当插件只有源码时..](./Compile_Plugin.md)  
 
 我们可以观察到：
 
@@ -60,7 +61,7 @@
 
 ![2020-11-28_12-39.png](https://i.loli.net/2020/11/28/LzRK3q6r4otxbQf.png)
 
-打开`EditConfig`文件夹，会发现里面包含一个`config.yml`。**这是大多数插件的默认配置文件**
+打开`EditConfig`文件夹，会发现里面包含一个`config.yml`。**config.yml 是大多数插件的默认配置文件名**
 
 config.yml内容:
 
@@ -68,17 +69,15 @@ config.yml内容:
  enable_me: false
 ```
 
-开启`enable_me`，发现服务器可以正常启动。
+开启`enable_me`，发现服务器可以正常启动。  
+[若您尚未习得如何读配置文件](Config.md)  
 
-此时您已成功安装并配置了 `EditConfig` 插件。( 注意： 其他插件没配置不一定就是启动不成功 请参考插件自身介绍。 )
+此时您已成功安装并配置了 `EditConfig` 插件。( 注意： 其他插件没配置不一定就是启动不成功, 请参考插件自身介绍。 )  
 
-### Tip: plugin.yml
-
-用任意压缩软件打开JAR，可以发现它。
-
-这是插件的自我描述文件，其中`name`是插件名。请读者试着修改这个属性并且让服务器加载修改后的插件。
-
-通过plugin.yml文件还可以看到插件的命令，权限等，在不开服情况下可以快速了解插件信息。
+> plugin.yml  
+用任意压缩软件打开JAR，可以发现它。  
+这是插件的自我描述文件，其中`name`是插件名。请读者试着修改这个属性并且让服务器加载修改后的插件。  
+通过plugin.yml文件还可以看到插件的命令，权限等，在不开服调试的情况下可以快速了解插件信息。
 
 ## 解决依赖
 
@@ -104,9 +103,7 @@ org.bukkit.plugin.UnknownDependencyException: lol
 
 其实在网上是找不到这个插件的，这个插件也根本不存在，因此您根本无法启动这个插件。
 
-不过，该插件**并不实际依赖于"lol"**。所以，如果您真的很想启动它，修改EditConfig的plugin.yml以伪装lol即可。
-
-[当插件只有源码时..](./Compile_Plugin.md)
+不过，该插件**并不实际依赖于"lol"**。所以，如果您真的很想启动它，修改EditConfig的plugin.yml以伪装lol即可。（但是大多数情况下没人这么蛋疼添加一个无用依赖。）
 
 ## 权限
 
@@ -118,11 +115,11 @@ OP是OPerator的简称，意为~~狗~~管理员，所有向 op 检验的权限�
 
 因此不要随便给OP
 
-通过`op 玩家名`给予权限，`deop op名`夺走权限。而控制台是Bukkit权限系统中的顶端（相当于op-level 4的OP）
+通过指令`op 玩家名`给予权限，`deop op名`夺走权限。而控制台是Bukkit权限系统中的顶端（相当于等级 4的OP）~~但是插件不想让你用你还是用不了~~
 
 ### 权限管理器
 
-虽然权限节点只能由插件注册，但我们可以控制权限节点的分发，这便需要一个权限管理器来做这件事情了。
+虽然权限节点只能由插件注册，但我们可以控制权限节点的分发，不过我们需要一个权限管理器来做这件事情。
 
 比较出名的有：
 
@@ -132,13 +129,14 @@ OP是OPerator的简称，意为~~狗~~管理员，所有向 op 检验的权限�
 
 Katsuhisa 推荐使用 LuckPerms，但是如果无法接受 LuckPerms，使用 GroupManagerPlus 也是可以的
 
-> LuckPerms
+> LuckPerms Preview
 >
 > ![img](https://i.imgur.com/Ta7gtd9.png)
+> 上图为权限调试器(/lp verbose)
 >
 > ![img](https://i.imgur.com/nkdtDkG.png)
 >
-> LuckPerms是一个强大的权限管理器，他灵活，强大，且性能高。
+> LuckPerms是一个强大的权限管理器，他灵活，强大，且性能好。
 >
 > https://luckperms.net/wiki/Why-LuckPerms
 
@@ -154,7 +152,11 @@ Katsuhisa 推荐使用 LuckPerms，但是如果无法接受 LuckPerms，使用 G
 
 # END
 
-本章内容结束。根据这些知识，您可以开始构建您自己的服务端了。
+本章内容结束。根据这些知识，您可以开始:
+ - 去构思你的服务器内容
+ - 寻找插件
+ - 安装并设置
+ - 建成一个服务器！
 
 若您感到有帮助，欢迎[赞助](https://afdian.net/@omgib67)或者点个Star！
 
