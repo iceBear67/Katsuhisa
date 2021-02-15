@@ -1,6 +1,6 @@
 # 插件，权限，命令
 
-在开服后，我们将会学习关于`server.properties`的部分内容和插件的安装，了解Bukkit权限系统和命令。
+在开服后，我们将会学习关于`server.properties`的部分内容和插件的安装，了解权限系统和命令。
 
 ## server.properties
 
