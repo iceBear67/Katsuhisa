@@ -17,5 +17,5 @@ Katsuhisa 基于第三方 Minecraft 服务端软件进行教学讲解，因使�
 教程提供的材料文件尽最大可能保持干净。
 - [开始](./1/A_New_Server.md)  
 - [开始之后](./2/After_First_Start.md)
-- [服务端核心那些事](./3/The_Fucking_SpigotEcoSystem.md)0
-- [准备发布你的服务器](./4/Preparing_For_Publish.md)
+- [服务端核心那些事](./3/The_Fucking_SpigotEcoSystem.md)
+- [准备发布你的服务器 (WIP)](./4/Preparing_For_Publish.md)

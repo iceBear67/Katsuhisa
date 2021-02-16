@@ -84,6 +84,11 @@ TL;DR
  * [CraftBukkit 和 Bukkit 之间的关系](https://bukkit.gamepedia.com/FAQ#What_is_the_difference_between_Bukkit_and_CraftBukkit.3F)  
 **注意：** CraftBukkit 实现的是 BukkitAPI，而Bukkit本身并不是一个 API，它实现了它自己的API。
 
+## Vanilla
+Vanilla 是 Mojang 直接提供的 Minecraft 服务端。  
+只能通过数据包，指令进行拓展，性能相比之下最差，拓展性最差（这也是为什么 Bukkit 和 Forge 会存在）。但使用 Vanilla 你可以直接得到来自官方的支持（稳定性）。   
+翻译时，不应做"香草"，应翻译成"原版"。
+
 ## Spigot
 https://www.spigotmc.org/  
 Bukkit 死了，CraftBukkit "死"了，唯独 Spigot "活了下来"。  
