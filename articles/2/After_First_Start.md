@@ -160,4 +160,4 @@ Katsuhisa 推荐使用 LuckPerms，但是如果无法接受 LuckPerms，使用 G
 
 若您感到有帮助，欢迎[赞助](https://afdian.net/@omgib67)或者点个Star！
 
-下一章将会讲解`服务端核心`相关。
+[下一章](../3/The_Fucking_SpigotEcoSystem.md)将会讲解`服务端核心`相关。
