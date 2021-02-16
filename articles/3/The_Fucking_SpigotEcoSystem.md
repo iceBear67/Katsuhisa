@@ -22,7 +22,6 @@
 
 ![image.png](https://i.loli.net/2021/02/16/vbxRoAp5WCT1wFh.png)  
 
----
 ## API (Application Programming Interface)
 
 > 为什么 Mod 不能当插件用呢？
@@ -36,7 +35,6 @@
 > Spigot 实现 Bukkit API 是什么意思？  
 > 这涉及到了编程上的概念，读者可以暂时理解为 "可以在 Spigot 服务端上使用基于 BukkitAPI 的插件”，因为 Spigot 提供了 BukkitAPI 的一切功能。
 
----
 ## NMS  
   
 ~~重申一遍，不要在NMS后面加上L~~    
@@ -47,7 +45,6 @@ NMS是 `net.minecraft.server` 的缩写，与 Minecraft 自己的代码有关，
   
 但实际上 `net.minecraft.server` 只是服务端核心开发组取得一个名字，原本的MC代码名大概会是 `a.b.c.d` 又或者是 `ii.li.il` ，谁知道呢？原版 Minecraft 代码实际上被随机打乱过，且开发组并不对这里面的变动负责... 大量的 Bukkit 插件只能呆在 CraftBukkit 分支上，因为其他实现了 BukkitAPI 的服务端核心大部分都不想管这坨在 API 范围之外难以维护难以预料的屎，这也是某些服务端被终结的原因。
 
----
 ## 稳定性 & 性能
 
 Bukkit 上的分支几乎都是为了同一个目的设计的——`优化`  
@@ -94,7 +91,6 @@ https://www.spigotmc.org/
 Bukkit 死了，CraftBukkit "死"了，唯独 Spigot "活了下来"。  
 实际上，Spigot 仍然处于黑色地带，但是 Mojang 被认为默许了它的存在。  
 
----
 ### BuildTools
 Spigot 通过 BuildTools 绕开了 DMCA 。  
 直到今天，您仍然可以使用它构建出 Spigot 和 **CraftBukkit**  
@@ -105,7 +101,6 @@ Spigot 通过 BuildTools 绕开了 DMCA 。
 
 [如何使用 BuildTools 构建一个 Spigot **官方直供无第三方接手**过的核心](./How_To_Use_BuildTools.md)  
 强烈建议每位腐竹都尝试一遍自己构建，不要经常依赖一些构建网站，[且分发核心实际上是犯法的](../What_is_eula.md)。  
-[第三方分发核心网站](https://getbukkit.org)
 
 ---
 ### 中间人物
@@ -125,7 +120,6 @@ Spigot 稳定且相比 Vanilla(原版服务器) 具有更好的性能，适用�
 
 但仍然有人不能满足。
 
----
 ## Paper
 https://papermc.io/  
 Paper (PaperSpigot) 是一个基于 Spigot 进行了大量优化和性能提升的服务端，此后又有许多服务端基于 Paper 进行了优化产生了很多分支。  
@@ -138,7 +132,7 @@ Paper (PaperSpigot) 是一个基于 Spigot 进行了大量优化和性能提升�
 > 最后，在选择服务端时请不要忘记 `稳定性 & 性能` 一节所传达给你的知识。
 
 
-
+[第三方分发核心网站](https://getbukkit.org)
 # 服务端核心介绍&杂事
 
 ## 如何启动一个服务端核心
