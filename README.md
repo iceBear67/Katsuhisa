@@ -18,3 +18,9 @@ Katsuhisa是一套从小白入门到高手的完整开服教学资源，覆盖�
 QQ 群组: 443098623
 
 **CC BY-NC**
+
+# Special Thanks
+排名不分先后
+
+- ksqeib @ksqeib445 
+- Server-CT Members @Server-CT
