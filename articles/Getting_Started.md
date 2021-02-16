@@ -12,8 +12,10 @@
 6. 我们假设您使用Windows作为学习开服的环境。
 
 Katsuhisa 基于第三方 Minecraft 服务端软件进行教学讲解，因使用此类软件得到的损失 Katsuhisa 不负任何责任，请自行注意计算机网络安全。  
+[如何问出一个干净的问题](https://lug.ustc.edu.cn/wiki/doc/smart-questions/)
 
 教程提供的材料文件尽最大可能保持干净。
 - [开始](./1/A_New_Server.md)  
 - [开始之后](./2/After_First_Start.md)
-- [服务端核心那些事](./3/The_Fucking_SpigotEcoSystem.md)
+- [服务端核心那些事](./3/The_Fucking_SpigotEcoSystem.md)0
+- [准备发布你的服务器](./4/Preparing_For_Publish.md)

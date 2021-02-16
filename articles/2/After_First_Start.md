@@ -103,7 +103,7 @@ org.bukkit.plugin.UnknownDependencyException: lol
 
 其实在网上是找不到这个插件的，这个插件也根本不存在，因此您根本无法启动这个插件。
 
-不过，该插件**并不实际依赖于"lol"**。所以，如果您真的很想启动它，修改EditConfig的plugin.yml以伪装lol即可。（但是大多数情况下没人这么蛋疼添加一个无用依赖。）
+不过，该插件**并不实际依赖于"lol"**。所以，如果您真的很想启动它，修改EditConfig的plugin.yml以伪装lol即可。（但是大多数情况下没插件这么蛋疼添加一个无用依赖。）
 
 ## 权限
 
@@ -111,7 +111,7 @@ Bukkit具有一套权限系统，可以控制玩家能干什么。诸如`nullcat
 
 ### 角色: OP
 
-OP是OPerator的简称，意为~~狗~~管理员，所有向 op 检验的权限都会绝对为真（相当于拥有全部权限节点的能力）
+OP是OPerator的简称，意为~~狗~~管理员，所有向 op 检验的权限都会绝对为肯定（相当于拥有全部权限节点的能力）
 
 因此不要随便给OP
 
@@ -136,11 +136,11 @@ Katsuhisa 推荐使用 LuckPerms，但是如果无法接受 LuckPerms，使用 G
 >
 > ![img](https://i.imgur.com/nkdtDkG.png)
 >
-> LuckPerms是一个强大的权限管理器，他灵活，强大，且性能好。
+> LuckPerms是一个强大的权限管理器，他灵活，强大，支持网站编辑且性能好。
 >
 > https://luckperms.net/wiki/Why-LuckPerms
 
-为了篇幅考虑，本文不会介绍如何使用LuckPerms，请参考LuckPerms WIKI
+为了篇幅考虑，本文不会介绍如何使用LuckPerms，请参考[LuckPerms WIKI](https://mineplugin.org/LuckPerms)
 
 ## 命令
 

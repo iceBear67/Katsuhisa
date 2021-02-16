@@ -99,7 +99,8 @@ Spigot 通过 BuildTools 绕开了 DMCA 。
 > 反编译服务器，应用补丁，重新打包.... BuildTools 一步呵成。
 
 [如何使用 BuildTools 构建一个 Spigot **官方直供无第三方接手**过的核心](./How_To_Use_BuildTools.md)  
-强烈建议每位腐竹都尝试一遍自己构建，不要经常依赖一些构建网站，[且分发核心实际上是犯法的](../What_is_eula.md)。
+强烈建议每位腐竹都尝试一遍自己构建，不要经常依赖一些构建网站，[且分发核心实际上是犯法的](../What_is_eula.md)。  
+[第三方分发核心网站](https://getbukkit.org)
 
 ---
 ### 中间人物
@@ -133,8 +134,25 @@ Paper (PaperSpigot) 是一个基于 Spigot 进行了大量优化和性能提升�
 
 
 
-# 服务端核心的介绍
+# 服务端核心介绍&杂事
 
+## 如何启动一个服务端核心
+打开你第一章的例子里面那个`双击我.bat`，内容如下：  
+`java -Xmx1024M -jar ./spigot-1.13.2.jar`
+下面上解释：  
+ - `java` 就是使用Java
+ - `-Xmx1024M` 是Java虚拟机参数，这一条的意思是`堆内存`最大1024M (1GiB)  
+  不只是 Xmx，你也可以使用`Xms`约束最小内存，在后面会有单独的章节讲解
+ - `-jar ./spigot-1.13.2.jar` 启动 `spigot-1.13.2.jar` ，也就是启动你的服务端核心。
+
+> 关于服务端弹窗  
+> 请在 `.jar` 后追加 `[空格]nogui`
+
+> 关于有时候启动服务端需要等待10~20秒  
+> 请在 `-jar` 前加上 `-DIReallyKnowWhatIAmDoingISwear`
+
+[更多启动参数](https://www.spigotmc.org/wiki/start-up-parameters/)
+## 服务端核心的介绍
 Katsuhisa 对于大多数服务端核心都做了介绍。有条件的读者请使用 XMind Zen/2020 来阅读[XMind导出文件](./Server_Cores.xmind)(免费版即可)，无条件的读者请前往[导出后的大纲](./Server_Cores.md)  
 > 关于Server_Cores.md
 > 对于贡献者: 请不要直接修改这章节的内容，请修改[XMind导出文件](./Server_Cores.xmind)后导出大纲为Markdown.  
