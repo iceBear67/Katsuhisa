@@ -150,7 +150,9 @@ Paper (PaperSpigot) 是一个基于 Spigot 进行了大量优化和性能提升�
 > 关于有时候启动服务端需要等待10~20秒  
 > 请在 `-jar` 前加上 `-DIReallyKnowWhatIAmDoingISwear`
 
-[更多启动参数](https://www.spigotmc.org/wiki/start-up-parameters/)
+[更多启动参数](https://www.spigotmc.org/wiki/start-up-parameters/)  
+[关于启动脚本那些事](./About_LaunchScript.md) \< 自动重启脚本内容,更加详细的解释
+
 ## 服务端核心的介绍
 Katsuhisa 对于大多数服务端核心都做了介绍。有条件的读者请使用 XMind Zen/2020 来阅读[XMind导出文件](./Server_Cores.xmind)(免费版即可)，无条件的读者请前往[导出后的大纲](./Server_Cores.md)  
 > 关于Server_Cores.md
