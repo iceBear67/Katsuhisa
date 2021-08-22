@@ -28,9 +28,10 @@
 
 这是因为它们所使用的 API 不同。  
 举个例子。我们想让一个叫 NullCat 的玩家穿上女装  
-一个用了 BukkitAPI 的插件: `从位于org.xxx的玩家管理器里拿出叫NullCat的玩家，然后给他设置女装属性为true`  
-一个用了 ForgeAPI 的Mod: `从位于com.xxx的服务器里拿出叫NullCat的玩家，然后从女装仓库里面拿一件女装放到他的饰品栏里面`  
-但如果你把用了 BukkitAPI 的插件交给 ForgeAPI ，而 ForgeAPI 并不存在`玩家管理器`，更不用说org.xxx了，因此将会直接无法运行，**它们之间代码的描述方法，API提供的功能有差异**。  
+一个用了 BukkitAPI 的插件: `从A盒子里面拿一个B`  
+一个用了 ForgeAPI 的Mod: `从B盒子里面拿一个A`  
+上述例子中，`从A盒子..` 是一个动作，`从B盒子..` 也是一个动作。虽然他们实现的功能看起来是一样的，但是 B 盒子可以是从上面往下掏，A 盒子可以是用夹子夹才能拿得到。    
+所以，如果你把 Bukkit 的插件交给 Forge ，而 ForgeAPI 并不存在 `A盒子` ，更不用提之后的总做，直接无法运行。
 
 > Spigot 实现 Bukkit API 是什么意思？  
 > 这涉及到了编程上的概念，读者可以暂时理解为 "可以在 Spigot 服务端上使用基于 BukkitAPI 的插件”，因为 Spigot 提供了 BukkitAPI 的一切功能。
